@@ -23,11 +23,11 @@ docker start almalinux9
 ```
 
 ## Check container is working
-To check that the container is running we open a shell in the container:
+To check that the container is running open a shell in the container:
 ```
 docker exec -it almalinux9 /bin/bash
 ```
-Inside the terminal we can run the following command to check the version of AlmaLinux:
+Inside the terminal run the following command to check the version of AlmaLinux:
 ```
 cat /etc/os-release
 ```
